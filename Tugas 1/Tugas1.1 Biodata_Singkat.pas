@@ -24,6 +24,6 @@ begin
   writeln(ttl);
   writeln(nohp);
   writeln(motto);
-  readln
+  readln;
 
 end.
