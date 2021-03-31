@@ -1,6 +1,6 @@
 {Nama         :Rivki Anja Afrenda}
 {NPM          :20.14.1.0049      }
-{Nama Program :GajiKaryawan.pas        }
+{Nama Program :GajiKaryawan.pas  }
 
 program Gaji_Karyawan;
 uses crt;
