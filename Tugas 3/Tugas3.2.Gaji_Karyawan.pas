@@ -44,13 +44,13 @@ persentase := 0.1;
 PotongIuran := (GajiPokok+Tunjangan)*persentase;
 GajiBersih := GajiPokok+Tunjangan-PotongIuran;
 writeln('');
-writeln('Gaji Pokok           :Rp. ',GajiPokok:10:2);
+writeln('Gaji Pokok           : Rp. ',GajiPokok:10:2);
 writeln();
-writeln('Tunjangan            :Rp.',Tunjangan:10:2);
+writeln('Tunjangan            : Rp.',Tunjangan:10:2);
 writeln();
-writeln('Potongan Iuran       :Rp.',PotongIuran:10:2);
+writeln('Potongan Iuran       : Rp.',PotongIuran:10:2);
 writeln('');
-writeln('Gaji Bersih          :Rp. ',GajiBersih:10:2);
+writeln('Gaji Bersih          : Rp. ',GajiBersih:10:2);
 writeln('');
 readln; 
 
