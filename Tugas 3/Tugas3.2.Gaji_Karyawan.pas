@@ -12,9 +12,9 @@ Gol : char;
 
 begin
 clrscr;
-write('Nama Karyawan : ');readln(Nama);
+write('Nama Karyawan  : ');readln(Nama);
 writeln();
-write('Goloangan (A\B) : ');readln(Gol);
+write('Golongan (A\B) : ');readln(Gol);
 writeln();
 write('Status (Nikah\Belum) : ');readln(Status);
 
