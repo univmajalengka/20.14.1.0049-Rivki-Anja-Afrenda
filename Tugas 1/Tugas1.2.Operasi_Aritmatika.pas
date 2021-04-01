@@ -25,7 +25,7 @@ begin
   writeln ('|  operasi  |  hasil operasi  |');
   writeln ('-------------------------------');
   writeln ('|   ',i, ' + ',j,'   |       ',tambah,'         |');
-  writeln ('|   ',i, ' - ',j,'   |       ',kurang,'         |');
+  writeln ('|   ',i, ' - ',j,'   |       ',kurang,'        |');
   writeln ('|   ',i, ' * ',j,'   |       ',kali,'         |');
   writeln ('|   ',i, ' div ',j,' |       ',a,'         |');
   writeln ('|   ',i, ' mod ',j,' |       ',b,'         |');
