@@ -11,16 +11,15 @@ a : integer;
 function bil(a : integer):integer;
 begin
 if a mod 2 = 0 then
-writeln('Bilangan ini adalah bilangan ganjil')
+writeln('Bilangan ini adalah bilangan genap')
 else
-writeln('Bilangan ini adalah bilangan genap');
+writeln('Bilangan ini adalah bilangan ganjil');
 end;
 
 begin
 clrscr;
-writeln('Menentukan Bilangan Ganjil dan Genap');
-writeln('====================================');
-write('Masukan angka : ');readln(a);
+write('Masukkan Bilangan : ');readln(a);
+writeln;
 bil(a);
 
 readln;
