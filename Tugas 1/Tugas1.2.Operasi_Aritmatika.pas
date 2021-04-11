@@ -1,6 +1,6 @@
 {Nama          : Rivki Anja Afrenda}
 {NPM           : 20.14.1.0049      }
-{Nama Program  : Program Aritmatika   }
+{Nama Program  : Program Aritmatika}
 
 program aritmatika;
 uses crt;
@@ -25,7 +25,7 @@ begin
   writeln ('|  operasi  |  hasil operasi  |');
   writeln ('-------------------------------');
   writeln ('|   ',i, ' + ',j,'   |       ',tambah,'         |');
-  writeln ('|   ',i, ' - ',j,'   |       ',kurang,'        |');
+  writeln ('|   ',i, ' - ',j,'   |       ',kurang,'          |');
   writeln ('|   ',i, ' * ',j,'   |       ',kali,'         |');
   writeln ('|   ',i, ' div ',j,' |       ',a,'         |');
   writeln ('|   ',i, ' mod ',j,' |       ',b,'         |');
