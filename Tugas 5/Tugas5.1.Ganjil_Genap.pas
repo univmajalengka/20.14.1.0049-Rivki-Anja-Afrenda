@@ -5,22 +5,23 @@
 program ganjil_genap;
 uses crt; 
 
-function bil (x, y : integer) : integer;
-begin
-if x mod y = 0 then
-writeln('Bilangan ini adalah bilangan genap')
-else
-writeln('Bilangan ini adalah bilangan ganjil');
-end; 
-
 var
-a : integer; 
+a : integer;
+
+function bil(a : integer):integer;
+begin
+if a mod 2 = 0 then
+writeln('Bilangan ini adalah bilangan ganjil')
+else
+writeln('Bilangan ini adalah bilangan genap');
+end;
 
 begin
 clrscr;
-write('Masukkan Bilangan : '); readln(a);
-writeln;
-writeln(bil(a,2));
-readln; 
+writeln('Menentukan Bilangan Ganjil dan Genap');
+writeln('====================================');
+write('Masukan angka : ');readln(a);
+bil(a);
 
+readln;
 end.
