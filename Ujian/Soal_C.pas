@@ -17,15 +17,16 @@ begin
   writeln('=================================');
   write('Masukan jumlah Data Mahasiswa : '); readln(n);
   writeln('=================================');
+  writeln;
 
   for i := 1 to n do
   begin
    writeln('Data Mahasiswa Ke-',i,' ');
-   write('Masukan Nama Anda Disini : '); readln(nama);
-   write('Masukan Tahun Lahir Anda Disini : '); readln(tl);
+   write('Masukan Nama Anda        : '); readln(nama);
+   write('Masukan Tahun Lahir Anda : '); readln(tl);
    writeln('=================================');
    usia := 2021 - tl;
-   writeln('Usia Anda Adalah : ',usia);
+   writeln('Usia Anda Adalah         : ',usia);
    writeln('=================================');
    writeln;
   end;
